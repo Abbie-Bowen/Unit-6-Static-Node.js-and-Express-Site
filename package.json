@@ -1,0 +1,23 @@
+{
+  "name": "unit-6-static-node.js-and-express-site",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abmarie/Unit-6-Static-Node.js-and-Express-Site.git"
+  },
+  "author": "Abbie Bowen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abmarie/Unit-6-Static-Node.js-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/abmarie/Unit-6-Static-Node.js-and-Express-Site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
