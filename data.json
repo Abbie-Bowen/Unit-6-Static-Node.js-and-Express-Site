@@ -1,0 +1,58 @@
+const portfolio = {
+    projects: [
+        unitOne:{
+            id: 0,
+            project_name: 'Unit 1 Project',
+            description: 'Random Quote Generator',
+            technologies: {'Javascript','CSS','HTML'},
+            live_link: 'Fill this in later',
+            github-link: 'fill this in later too',
+            image_urls: {'link to main image', 'optional extra images'}
+        },
+        unitTwo:{
+            id: 0,
+            project_name: 'Unit 1 Project',
+            description: 'Random Quote Generator',
+            technologies: {'Javascript','CSS','HTML'},
+            live_link: 'Fill this in later',
+            github-link: 'fill this in later too',
+            image_urls: {'link to main image', 'optional extra images'}
+        },
+        unitThree:{
+            id: 0,
+            project_name: 'Unit 1 Project',
+            description: 'Random Quote Generator',
+            technologies: {'Javascript','CSS','HTML'},
+            live_link: 'Fill this in later',
+            github-link: 'fill this in later too',
+            image_urls: {'link to main image', 'optional extra images'}
+        },
+        unitFour:{
+            id: 0,
+            project_name: 'Unit 1 Project',
+            description: 'Random Quote Generator',
+            technologies: {'Javascript','CSS','HTML'},
+            live_link: 'Fill this in later',
+            github-link: 'fill this in later too',
+            image_urls: {'link to main image', 'optional extra images'}
+        },
+        unitFive:{
+            id: 0,
+            project_name: 'Unit 1 Project',
+            description: 'Random Quote Generator',
+            technologies: {'Javascript','CSS','HTML'},
+            live_link: 'Fill this in later',
+            github-link: 'fill this in later too',
+            image_urls: {'link to main image', 'optional extra images'}
+        },
+        FourInaRow:{
+            id: 0,
+            project_name: 'Unit 1 Project',
+            description: 'Random Quote Generator',
+            technologies: {'Javascript','CSS','HTML'},
+            live_link: 'Fill this in later',
+            github-link: 'fill this in later too',
+            image_urls: {'link to main image', 'optional extra images'}
+        }
+    ]
+}
