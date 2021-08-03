@@ -1,58 +1,94 @@
-const portfolio = {
-    projects: [
-        unitOne:{
-            id: 0,
-            project_name: 'Unit 1 Project',
-            description: 'Random Quote Generator',
-            technologies: {'Javascript','CSS','HTML'},
-            live_link: 'Fill this in later',
-            github-link: 'fill this in later too',
-            image_urls: {'link to main image', 'optional extra images'}
-        },
-        unitTwo:{
-            id: 0,
-            project_name: 'Unit 1 Project',
-            description: 'Random Quote Generator',
-            technologies: {'Javascript','CSS','HTML'},
-            live_link: 'Fill this in later',
-            github-link: 'fill this in later too',
-            image_urls: {'link to main image', 'optional extra images'}
-        },
-        unitThree:{
-            id: 0,
-            project_name: 'Unit 1 Project',
-            description: 'Random Quote Generator',
-            technologies: {'Javascript','CSS','HTML'},
-            live_link: 'Fill this in later',
-            github-link: 'fill this in later too',
-            image_urls: {'link to main image', 'optional extra images'}
-        },
-        unitFour:{
-            id: 0,
-            project_name: 'Unit 1 Project',
-            description: 'Random Quote Generator',
-            technologies: {'Javascript','CSS','HTML'},
-            live_link: 'Fill this in later',
-            github-link: 'fill this in later too',
-            image_urls: {'link to main image', 'optional extra images'}
-        },
-        unitFive:{
-            id: 0,
-            project_name: 'Unit 1 Project',
-            description: 'Random Quote Generator',
-            technologies: {'Javascript','CSS','HTML'},
-            live_link: 'Fill this in later',
-            github-link: 'fill this in later too',
-            image_urls: {'link to main image', 'optional extra images'}
-        },
-        FourInaRow:{
-            id: 0,
-            project_name: 'Unit 1 Project',
-            description: 'Random Quote Generator',
-            technologies: {'Javascript','CSS','HTML'},
-            live_link: 'Fill this in later',
-            github-link: 'fill this in later too',
-            image_urls: {'link to main image', 'optional extra images'}
+{
+    "projects":[
+        {
+        "unitOne":{
+            "id": "0",
+            "project_name": "Unit 1 Project",
+            "description": "Random Quote Generator",
+            "technologies": ["Javascript","CSS","HTML"
+            ],
+            "live_link": "https://abbie-bowen.github.io/Unit-1-Random-Quote-Generator/",
+            "github-link": "https://github.com/Abbie-Bowen/Unit-1-Random-Quote-Generator",
+            "image_urls": ["/public/images/Project_1/RandomQuoteGeneratorMain", 
+                "/public/images/Project_1/RandomQuoteGeneratorFullSize1", 
+                "/public/images/Project_1/RandomQuoteGeneratorFullSize2"
+            ],
+            "video_preview" : "/public/images/Project_1/Preview Video"
         }
-    ]
+    },
+    {
+        "unitTwo":{
+            "id": "1",
+            "project_name": "Unit 2 Project",
+            "description": "Data Pagination and Filtering",
+            "technologies": ["Javascript","CSS","HTML"
+            ],
+            "live_link": "https://abbie-bowen.github.io/Unit-2-Data-Pagination-and-Filtering/",
+            "github-link": "https://github.com/Abbie-Bowen/Unit-2-Data-Pagination-and-Filtering",
+            "image_urls": ["/public/images/Project_2/DataPaginationMain", "/public/images/Project_2/DataPaginationFull"
+            ],
+            "video_preview" : "/public/images/Project_2/Preview Video"
+        }
+    },
+    {
+        "unitThree":{
+            "id": "2",
+            "project_name": "Unit 3 Project",
+            "description": "Interactive Form",
+            "technologies": ["Javascript","CSS","HTML"
+            ],
+            "live_link": "https://abbie-bowen.github.io/Unit-3-Interactive-Form/",
+            "github-link": "https://github.com/Abbie-Bowen/Unit-3-Interactive-Form",
+            "image_urls": ["/public/images/Project_3/InteractiveFormMain", "/public/images/Project_3/InteractiveFormFull"
+            ],
+            "video_preview" : "/public/images/Project_3/Preview Video"
+        }
+    },
+    {
+        "unitFour":{
+            "id": "3",
+            "project_name": "Unit 4 Project",
+            "description": "Game Show App: Snap Word Phrases",
+            "technologies": ["Javascript","CSS","HTML"
+            ],
+            "live_link": "https://abbie-bowen.github.io/Treehouse-Unit-4-Game-Show-App/",
+            "github-link": "https://github.com/Abbie-Bowen/Treehouse-Unit-4-Game-Show-App",
+            "image_urls": ["/public/images/Project_4/GameShowAppMain", "/public/images/Project_4/GameShowAppFull1", 
+                "/public/images/Project_4/GameShowAppFull2", 
+                "/public/images/Project_4/GameShowAppFull3"
+            ],
+            "video_preview" : "/public/images/Project_4/Preview Video"
+        }
+    },
+    {
+        "unitFive":{
+            "id": "4",
+            "project_name": "Unit 5 Project",
+            "description": "Public API Requests",
+            "technologies": ["Javascript","CSS","HTML"
+            ],
+            "live_link": "https://abbie-bowen.github.io/Unit-5-Public-API-Requests/",
+            "github-link": "https://github.com/Abbie-Bowen/Unit-5-Public-API-Requests",
+            "image_urls": ["/public/images/Project_5/PublicAPIRequestsMain", "/public/images/Project_5/PublicAPIRequestsFull", 
+                "/public/images/Project_5/PublicAPIRequestsFull2"
+            ],
+            "video_preview" : "/public/images/Project_5/Preview Video"
+        }
+    },
+    {
+        "FourInaRow":{
+            "id": "5",
+            "project_name": "Math Four in A Row",
+            "description": "Math Facts Practice Game",
+            "technologies": ["Javascript","CSS","HTML"
+            ],
+            "live_link": "https://abbie-bowen.github.io/Math-Four-In-A-Row/",
+            "github-link": "https://github.com/Abbie-Bowen/Math-Four-In-A-Row",
+            "image_urls": ["/public/images/Four_In_a_Row/FourInaRowMain", "/public/images/Four_In_a_Row/FourInaRowFull", 
+                "/public/images/Four_In_a_Row/FourInaRowFull2", "/public/images/Four_In_a_Row/FourInaRowFull3", "/public/images/Four_In_a_Row/FourInaRowFull4"
+            ],
+            "video_preview" : "/public/images/Four_In_a_Row/Preview Video"
+        }
+    }
+]
 }
