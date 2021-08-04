@@ -9,11 +9,19 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 // set static folder
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
 
 //routes
 app.get('/', (req, res, next) => {
     res.render('index');
+});
+
+app.get('/about', (req, res, next) => {
+    res.render('about');
+});
+
+app.get('/project', (req, res, next) => {
+    res.render('project');
 });
 
 

@@ -21,14 +21,14 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
+  background: #E5E5E5;
   background: #000;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
 article {
-  background: #fefefe;
+  background: #E5E5E5;
 }
 
 h1,h2,h3,h4,h5,p{
@@ -63,7 +63,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: #E5E5E5;
 }
 
 .flex-row-wrap {
@@ -82,7 +82,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: #E5E5E5;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -108,7 +108,7 @@ a {
 nav {
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 nav a {
@@ -137,7 +137,8 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background-image: url(../images/Sidebar.png) cover;
+  background: #022e3c;
 }
 
 .sidebar-info-box {
@@ -176,12 +177,12 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: rgb(54, 54, 54);
 }
 
 .header {
   vertical-align: middle;
-  color: #fefefe;
+  color: #E5E5E5;
   height: 40px;
   padding: 0.5rem;
   background: #0a0a0a;
