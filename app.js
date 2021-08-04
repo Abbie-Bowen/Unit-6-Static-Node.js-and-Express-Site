@@ -1,15 +1,20 @@
 var express = require("express");
 var path = require('path');
-// var data = require('/data.json');
+var projects = require('./data.json');
 
 var app = express();
 
 // // view engine 
-// app.set('views', path.join(__dirname, 'views'));
-// app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
 
 // set static folder
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
+
+//routes
+app.get('/', (req, res, next) => {
+    res.render('index');
+});
 
 
 //listening
