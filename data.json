@@ -1,7 +1,6 @@
 {
     "projects":[
         {
-        "unitOne":{
             "id": "0",
             "project_name": "Unit 1 Project",
             "description": "Random Quote Generator",
@@ -14,10 +13,8 @@
                 "/public/images/Project_1/RandomQuoteGeneratorFullSize2"
             ],
             "video_preview" : "/public/images/Project_1/Preview Video"
-        }
     },
     {
-        "unitTwo":{
             "id": "1",
             "project_name": "Unit 2 Project",
             "description": "Data Pagination and Filtering",
@@ -28,10 +25,8 @@
             "image_urls": ["/public/images/Project_2/DataPaginationMain", "/public/images/Project_2/DataPaginationFull"
             ],
             "video_preview" : "/public/images/Project_2/Preview Video"
-        }
     },
     {
-        "unitThree":{
             "id": "2",
             "project_name": "Unit 3 Project",
             "description": "Interactive Form",
@@ -42,10 +37,8 @@
             "image_urls": ["/public/images/Project_3/InteractiveFormMain", "/public/images/Project_3/InteractiveFormFull"
             ],
             "video_preview" : "/public/images/Project_3/Preview Video"
-        }
     },
     {
-        "unitFour":{
             "id": "3",
             "project_name": "Unit 4 Project",
             "description": "Game Show App: Snap Word Phrases",
@@ -58,10 +51,9 @@
                 "/public/images/Project_4/GameShowAppFull3"
             ],
             "video_preview" : "/public/images/Project_4/Preview Video"
-        }
+
     },
     {
-        "unitFive":{
             "id": "4",
             "project_name": "Unit 5 Project",
             "description": "Public API Requests",
@@ -73,10 +65,8 @@
                 "/public/images/Project_5/PublicAPIRequestsFull2"
             ],
             "video_preview" : "/public/images/Project_5/Preview Video"
-        }
     },
     {
-        "FourInaRow":{
             "id": "5",
             "project_name": "Math Four in A Row",
             "description": "Math Facts Practice Game",
@@ -88,7 +78,6 @@
                 "/public/images/Four_In_a_Row/FourInaRowFull2", "/public/images/Four_In_a_Row/FourInaRowFull3", "/public/images/Four_In_a_Row/FourInaRowFull4"
             ],
             "video_preview" : "/public/images/Four_In_a_Row/Preview Video"
-        }
     }
 ]
 }

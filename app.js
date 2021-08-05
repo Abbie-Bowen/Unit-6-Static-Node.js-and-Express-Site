@@ -1,8 +1,8 @@
-var express = require("express");
-var path = require('path');
-var {projects} = require('./data.json');
+const express = require("express");
+const path = require('path');
 
-var app = express();
+
+const app = express();
 
 // // view engine 
 app.set('views', path.join(__dirname, 'views'));
@@ -11,9 +11,15 @@ app.set('view engine', 'pug');
 // set static folder
 app.use('/static', express.static('public'));
 
+//parse JSON data
+app.use(express.json());
+const projects = require('./data.json');
+console.log(projects);
+// const projects = JSON.parse(projectsJSON);
+
 //routes
 app.get('/', (req, res, next) => {
-    res.render('index', {projects});
+    res.render('index', projects);
 });
 
 app.get('/about', (req, res, next) => {
