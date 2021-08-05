@@ -137,22 +137,24 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background-image: url(../images/Sidebar.png) cover;
-  background: #022e3c;
+  /* background-color: #022e3c */
+  background-image: url(../images/Sidebar.png);
+  background-size: cover;
 }
 
 .sidebar-info-box {
   margin: auto;
 }
 
-.thumbnail-box {
+/* .thumbnail-box {
   padding: 0 10px;
-}
+} */
 
 .sidebar .thumbnail {
   width: 100%;
-  max-width: 250px;
-  border: 4px solid #fff;
+  max-width: 350px;
+  border: 15px solid #a36d00;
+  border-radius: 25px;
 }
 
 .dev-intro-box {
@@ -167,22 +169,22 @@ nav a span {
 .sidebar p {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
-  font-size: 14px;
-  color: #999
+  font-size: 16px;
+  color: #f4f5f6
 }
 
 .sidebar a {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 18px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: rgb(54, 54, 54);
+  color: #f4f5f6;
 }
 
 .header {
   vertical-align: middle;
-  color: #E5E5E5;
+  color: #f4f5f6;
   height: 40px;
   padding: 0.5rem;
   background: #0a0a0a;
