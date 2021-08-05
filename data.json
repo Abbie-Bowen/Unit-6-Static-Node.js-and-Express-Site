@@ -1,83 +1,87 @@
 {
-    "projects":[
+    "projects": [
         {
-            "id": "0",
-            "project_name": "Unit 1 Project",
-            "description": "Random Quote Generator",
-            "technologies": ["Javascript","CSS","HTML"
-            ],
-            "live_link": "https://abbie-bowen.github.io/Unit-1-Random-Quote-Generator/",
-            "github-link": "https://github.com/Abbie-Bowen/Unit-1-Random-Quote-Generator",
-            "image_urls": ["/public/images/Project_1/RandomQuoteGeneratorMain", 
-                "/public/images/Project_1/RandomQuoteGeneratorFullSize1", 
-                "/public/images/Project_1/RandomQuoteGeneratorFullSize2"
-            ],
-            "video_preview" : "/public/images/Project_1/Preview Video"
-    },
-    {
-            "id": "1",
-            "project_name": "Unit 2 Project",
-            "description": "Data Pagination and Filtering",
-            "technologies": ["Javascript","CSS","HTML"
-            ],
-            "live_link": "https://abbie-bowen.github.io/Unit-2-Data-Pagination-and-Filtering/",
-            "github-link": "https://github.com/Abbie-Bowen/Unit-2-Data-Pagination-and-Filtering",
-            "image_urls": ["/public/images/Project_2/DataPaginationMain", "/public/images/Project_2/DataPaginationFull"
-            ],
-            "video_preview" : "/public/images/Project_2/Preview Video"
-    },
-    {
-            "id": "2",
-            "project_name": "Unit 3 Project",
-            "description": "Interactive Form",
-            "technologies": ["Javascript","CSS","HTML"
-            ],
-            "live_link": "https://abbie-bowen.github.io/Unit-3-Interactive-Form/",
-            "github-link": "https://github.com/Abbie-Bowen/Unit-3-Interactive-Form",
-            "image_urls": ["/public/images/Project_3/InteractiveFormMain", "/public/images/Project_3/InteractiveFormFull"
-            ],
-            "video_preview" : "/public/images/Project_3/Preview Video"
-    },
-    {
-            "id": "3",
-            "project_name": "Unit 4 Project",
-            "description": "Game Show App: Snap Word Phrases",
-            "technologies": ["Javascript","CSS","HTML"
-            ],
-            "live_link": "https://abbie-bowen.github.io/Treehouse-Unit-4-Game-Show-App/",
-            "github-link": "https://github.com/Abbie-Bowen/Treehouse-Unit-4-Game-Show-App",
-            "image_urls": ["/public/images/Project_4/GameShowAppMain", "/public/images/Project_4/GameShowAppFull1", 
-                "/public/images/Project_4/GameShowAppFull2", 
-                "/public/images/Project_4/GameShowAppFull3"
-            ],
-            "video_preview" : "/public/images/Project_4/Preview Video"
-
-    },
-    {
-            "id": "4",
-            "project_name": "Unit 5 Project",
-            "description": "Public API Requests",
-            "technologies": ["Javascript","CSS","HTML"
-            ],
-            "live_link": "https://abbie-bowen.github.io/Unit-5-Public-API-Requests/",
-            "github-link": "https://github.com/Abbie-Bowen/Unit-5-Public-API-Requests",
-            "image_urls": ["/public/images/Project_5/PublicAPIRequestsMain", "/public/images/Project_5/PublicAPIRequestsFull", 
-                "/public/images/Project_5/PublicAPIRequestsFull2"
-            ],
-            "video_preview" : "/public/images/Project_5/Preview Video"
-    },
-    {
-            "id": "5",
-            "project_name": "Math Four in A Row",
-            "description": "Math Facts Practice Game",
+            "id": 0,
+            "project_name": "Math Facts Four in a Row Game",
+            "description": "An app designed for math fact practice with some FUN involved. This is an extension I created of a basic four in a row game we used as practice during the Treehouse TechDegree.",
             "technologies": ["Javascript","CSS","HTML"
             ],
             "live_link": "https://abbie-bowen.github.io/Math-Four-In-A-Row/",
-            "github-link": "https://github.com/Abbie-Bowen/Math-Four-In-A-Row",
-            "image_urls": ["/public/images/Four_In_a_Row/FourInaRowMain", "/public/images/Four_In_a_Row/FourInaRowFull", 
-                "/public/images/Four_In_a_Row/FourInaRowFull2", "/public/images/Four_In_a_Row/FourInaRowFull3", "/public/images/Four_In_a_Row/FourInaRowFull4"
+            "github_link": "https://github.com/Abbie-Bowen/Math-Four-In-A-Row",
+            "image_urls": ["/static/images/Four_In_a_Row/FourInaRowFull.png", 
+                "/static/images/Four_In_a_Row/FourInaRowFull2.png", 
+                "/static/images/Four_In_a_Row/FourInaRowFull4.png",
+                "/static/images/Four_In_a_Row/FourInaRowFull5.png"
             ],
-            "video_preview" : "/public/images/Four_In_a_Row/Preview Video"
-    }
+            "video_preview" : "/static/images/Four_In_a_Row/Preview_Video.mp4"
+    },
+    {
+        "id": 1,
+        "project_name": "Public API Requests",
+        "description": "This website makes an API request and uses that data to populate a website. Additional features include filtering by name and a modal to view more information.",
+        "technologies": ["Javascript","CSS","HTML"
+        ],
+        "live_link": "https://abbie-bowen.github.io/Unit-5-Public-API-Requests/",
+        "github_link": "https://github.com/Abbie-Bowen/Unit-5-Public-API-Requests",
+        "image_urls": ["/static/images/Project_5/PublicAPIRequestsFull.png", 
+            "/static/images/Project_5/PublicAPIRequestsFull2.png"
+        ],
+        "video_preview" : "/static/images/Project_5/Preview_Video.mp4"
+},
+
+
+    {
+            "id": 2,
+            "project_name": "Game Show App: Snap Word Phrases",
+            "description": "This game show app lets the user guess letters and gives immediate feedback as to if that letter is included in the random phrase. Phrases all include a snap word (these are sometimes also called sight words) to help students practice words in context.",
+            "technologies": ["Javascript","CSS","HTML"
+            ],
+            "live_link": "https://abbie-bowen.github.io/Treehouse-Unit-4-Game-Show-App/",
+            "github_link": "https://github.com/Abbie-Bowen/Treehouse-Unit-4-Game-Show-App",
+            "image_urls": ["/static/images/Project_4/GameShowAppFull.png",
+                "/static/images/Project_4/GameShowAppFull1.png", 
+                "/static/images/Project_4/GameShowAppFull2.png" 
+                
+            ],
+            "video_preview" : "/static/images/Project_4/Preview_Video.mp4"
+
+    },
+    {
+        "id": 3,
+        "project_name": "Interactive Form",
+        "description": "This form lets the user input information that would be required to register for a conference. Data validation occurs in real time to let the user know if they need to make corrections.",
+        "technologies": ["Javascript","CSS","HTML"
+        ],
+        "live_link": "https://abbie-bowen.github.io/Unit-3-Interactive-Form/",
+        "github_link": "https://github.com/Abbie-Bowen/Unit-3-Interactive-Form",
+        "image_urls": ["/static/images/Project_3/InteractiveFormFull.png"
+        ],
+        "video_preview" : "/static/images/Project_3/Preview_Video.mp4"
+},
+    {
+        "id": 4,
+        "project_name": "Data Pagination and Filtering",
+        "description": "A website that displays an array of people to a page with a real time search bar that filters the people displayed. Pagination buttons at the bottom of the page let the user page through results.",
+        "technologies": ["Javascript","CSS","HTML"
+        ],
+        "live_link": "https://abbie-bowen.github.io/Unit-2-Data-Pagination-and-Filtering/",
+        "github_link": "https://github.com/Abbie-Bowen/Unit-2-Data-Pagination-and-Filtering",
+        "image_urls": ["/static/images/Project_2/DataPaginationFull.png"
+        ],
+        "video_preview" : "/static/images/Project_2/Preview_Video.mp4"
+},
+    {
+        "id": 5,
+        "project_name": "Random Quote Generator",
+        "description": "This app displays a new quote from my favorite TV show each time the user clicks the button. The background also automatically changes to a new jewel-toned color.",
+        "technologies": ["Javascript","CSS","HTML"
+        ],
+        "live_link": "https://abbie-bowen.github.io/Unit-1-Random-Quote-Generator/",
+        "github_link": "https://github.com/Abbie-Bowen/Unit-1-Random-Quote-Generator",
+        "image_urls": ["/static/images/Project_1/RandomQuoteGeneratorFullSize1.png", 
+            "/static/images/Project_1/RandomQuoteGeneratorFullSize2.png"
+        ],
+        "video_preview" : "/static/images/Project_1/Preview_Video.mp4"
+}
 ]
 }
