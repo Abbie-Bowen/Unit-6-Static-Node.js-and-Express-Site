@@ -36,7 +36,7 @@ app.get('/project/:id', (req, res, next) => {
 });
 
 app.get('/404', (req, res, next) => {
-    res.render('/page-not-found');
+    res.render('page-not-found');
 })
 
 

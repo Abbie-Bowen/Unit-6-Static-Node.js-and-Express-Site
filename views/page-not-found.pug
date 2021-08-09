@@ -2,12 +2,13 @@ extends layout.pug
 
 block content 
 
-    article 
-        h1 Oops! That page does not exist. 
-        video(src='/static/images/Bummer.mp4', autoplay, loop, muted, alt='Potted plant making a sad face with the word: bummer.')
-        p Click the link below to go back to the home page. 
-        
-    nav.nav
+    article    
+        .inner-wrapper.box
+            h1 Oops! That page does not exist. 
+            video.error(src='/static/images/Bummer.mp4', autoplay, loop, muted, alt='Potted plant making a sad face with the word: bummer.')
+            p Click the link below to go back to the home page. 
+
+    nav.nav.error
         a(href='/')
             span &larr;
             |  Back
