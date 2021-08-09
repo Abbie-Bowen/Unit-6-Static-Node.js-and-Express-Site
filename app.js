@@ -35,6 +35,10 @@ app.get('/project/:id', (req, res, next) => {
     }
 });
 
+app.get('/404', (req, res, next) => {
+    res.render('page-not-found');
+})
+
 
 //listening
 const PORT = process.envPORT || 3000;
