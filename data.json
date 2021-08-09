@@ -27,7 +27,7 @@
             "/static/images/Project_5/PublicAPIRequestsFull2.png"
         ],
         "video_preview" : "/static/images/Project_5/Preview_Video.mp4"
-},
+    },
 
 
     {
@@ -57,7 +57,7 @@
         "image_urls": ["/static/images/Project_3/InteractiveFormFull.png"
         ],
         "video_preview" : "/static/images/Project_3/Preview_Video.mp4"
-},
+    },
     {
         "id": 4,
         "project_name": "Data Pagination and Filtering",
@@ -69,7 +69,7 @@
         "image_urls": ["/static/images/Project_2/DataPaginationFull.png"
         ],
         "video_preview" : "/static/images/Project_2/Preview_Video.mp4"
-},
+    },
     {
         "id": 5,
         "project_name": "Random Quote Generator",
@@ -82,6 +82,6 @@
             "/static/images/Project_1/RandomQuoteGeneratorFullSize2.png"
         ],
         "video_preview" : "/static/images/Project_1/Preview_Video.mp4"
-}
+    }
 ]
 }
