@@ -1,1 +1,19 @@
 extends layout.pug
+
+block content  
+
+    article    
+        .inner-wrapper.box
+            h1 Sorry, something went wrong.  
+            img.error(src='/static/images/Bummer.png', alt='Cat making a sad face.')
+            br
+            button(onclick="showErrorInfo()") More Info 
+            div.errorInfo(style='display:none')
+               p This is where the error message will go
+                
+            h3 Click the link below to go back to the home page. 
+
+    nav.nav.error
+        a.underline(href='/')
+            span &larr;
+            |  Back

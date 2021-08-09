@@ -27,17 +27,33 @@ app.get('/about', (req, res, next) => {
 app.get('/project/:id', (req, res, next) => {
     const projectId =  req.params.id;
     const project = projects.find(({id}) => id === +projectId);
-
-    if (project) {
+    try {
+        if (!project) {
+            createError(500);
+        }
     res.render('project', {project});
-    } else {
-        res.sendStatus(404);
+    }catch(err) {
+        next(err);
     }
 });
 
-app.get('/404', (req, res, next) => {
-    res.render('page-not-found');
-})
+//error handling
+app.use(function(err, req, res, next) {
+    next(createError(404));
+});
+
+app.use(function(err, req, res, next) {
+    res.locals.message = err.message;
+    res.locals.error = req.app.get('env') === 'development' ? err: {};
+
+    if (err.status === 404) {
+        res.status(err.statusCode);
+        res.render('page-not-found');
+    } else {
+        res.status(err.statusCode || 500);
+        res.render('error');
+    }
+});
 
 
 //listening

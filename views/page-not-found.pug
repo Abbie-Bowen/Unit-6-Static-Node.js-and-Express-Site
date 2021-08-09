@@ -6,9 +6,14 @@ block content
         .inner-wrapper.box
             h1 Oops! That page does not exist. 
             video.error(src='/static/images/Bummer.mp4', autoplay, loop, muted, alt='Potted plant making a sad face with the word: bummer.')
-            p Click the link below to go back to the home page. 
+            br
+            button(onclick="showErrorInfo()") More Info 
+            div.errorInfo(style='display:none')
+                p This is where the error message will go
+
+            h3 Click the link below to go back to the home page. 
 
     nav.nav.error
-        a(href='/')
+        a.underline(href='/')
             span &larr;
             |  Back

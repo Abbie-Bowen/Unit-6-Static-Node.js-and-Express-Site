@@ -21,8 +21,8 @@ block content
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
           //- The project title for the h5 element's text
       each project in projects  
-        .cell
+        .cell.underline
           a(href=`/project/${project.id}`)
-            video.thumbnail(src=`${project.video_preview}`, autoplay, loop, muted, alt=`Preview video of ${project.project_name} and link see more about this project.`)
-            h5= `${project.project_name}`
+            video.thumbnail(src=`${project.video_preview}`, loop, muted, alt=`Preview video of ${project.project_name} and link see more about this project.`)
+            h5 #{project.project_name}
 
