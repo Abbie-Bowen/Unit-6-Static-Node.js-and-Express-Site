@@ -331,7 +331,7 @@ nav a span {
   Error Page Styles
 */
 
-video.error {
+.error {
   max-width: 40%;
 }
 

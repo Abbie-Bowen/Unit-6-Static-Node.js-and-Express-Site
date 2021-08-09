@@ -1,3 +1,4 @@
+const createError = require("http-errors");
 const express = require("express");
 const path = require('path');
 
@@ -29,7 +30,7 @@ app.get('/project/:id', (req, res, next) => {
     const project = projects.find(({id}) => id === +projectId);
     try {
         if (!project) {
-            createError(500);
+            next(createError(404, "This project does not exist."));
         }
     res.render('project', {project});
     }catch(err) {
@@ -37,10 +38,14 @@ app.get('/project/:id', (req, res, next) => {
     }
 });
 
+// app.get('*', (req, res, next) => {
+//     res.redirect('/');
+// });
+
 //error handling
-app.use(function(err, req, res, next) {
+app.use(function (req, res, next) {
     next(createError(404));
-});
+  });
 
 app.use(function(err, req, res, next) {
     res.locals.message = err.message;
@@ -48,10 +53,10 @@ app.use(function(err, req, res, next) {
 
     if (err.status === 404) {
         res.status(err.statusCode);
-        res.render('page-not-found');
+        res.render('page-not-found', {err});
     } else {
         res.status(err.statusCode || 500);
-        res.render('error');
+        res.render('error', {err});
     }
 });
 

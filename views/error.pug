@@ -9,7 +9,8 @@ block content
             br
             button(onclick="showErrorInfo()") More Info 
             div.errorInfo(style='display:none')
-               p This is where the error message will go
+               h2= `${err.status}: ${err.message}`
+               p #{err.stack}
                 
             h3 Click the link below to go back to the home page. 
 
