@@ -67,7 +67,9 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
+  float: left;
   background: #f4f5f6;
+  overflow: auto;
 }
 
 .flex-row-wrap {
@@ -131,27 +133,25 @@ nav a span {
 }
 
 .sidebar {
-  position: absolute;
+  z-index: 1;
   top: 0;
-  left: -300px;
-  bottom: 0;
   min-width: 300px;
   max-width: 300px;
+  margin-right: -300px;
+  float: left;
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  /* background-color: #022e3c */
   background-image: url(../images/Sidebar.png);
+  background-color: #022e3c;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .sidebar-info-box {
   margin: auto;
 }
 
-/* .thumbnail-box {
-  padding: 0 10px;
-} */
 
 .sidebar .thumbnail {
   width: 100%;
@@ -224,6 +224,31 @@ nav a span {
   background: #f4f5f6;
 }
 
+/*
+  link underline animation from Cojea Gabriel https://codepen.io/gabrielcojea
+*/
+.underline{
+  position: relative;
+}
+
+.underline::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: #a36d00;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
 
 /*
   Home page styles
@@ -306,7 +331,7 @@ nav a span {
   Error Page Styles
 */
 
-video.error {
+.error {
   max-width: 40%;
 }
 

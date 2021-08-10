@@ -3,7 +3,7 @@ extends layout.pug
 block content
 
   nav.nav
-    a(href='/')
+    a.underline(href='/')
       span &larr;
       |  Back
 
@@ -28,8 +28,8 @@ block content
             li=`${tech}`
 
         //- Add the href values to the links below
-        a.btn-link(href=`${project.live_link}`) Live Demo
-        a.btn-link(href=`${project.github_link}`) GitHub Repo
+        a.btn-link(href=`${project.live_link}` target="_blank") Live Demo
+        a.btn-link(href=`${project.github_link}` target="_blank") GitHub Repo
 
     .project-img-box.box
 
@@ -38,6 +38,6 @@ block content
         img.project-img(src=`${image}`, alt=`Image of ${project.project_name}`)
 
     nav.nav
-      a(href='/')
+      a.underline(href='/')
         span &larr;
         |  Back
