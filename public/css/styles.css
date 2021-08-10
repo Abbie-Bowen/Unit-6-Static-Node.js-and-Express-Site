@@ -146,6 +146,9 @@ nav a span {
   background-color: #022e3c;
   background-size: cover;
   overflow-x: hidden;
+  position: absolute;	
+  left: -300px;	
+  bottom: 0;
 }
 
 .sidebar-info-box {
