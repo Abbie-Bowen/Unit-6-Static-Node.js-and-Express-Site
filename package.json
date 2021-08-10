@@ -4,8 +4,7 @@
   "description": "portfolio website",
   "main": "app.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,7 @@
   "homepage": "https://github.com/abmarie/Unit-6-Static-Node.js-and-Express-Site#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
   "devDependencies": {

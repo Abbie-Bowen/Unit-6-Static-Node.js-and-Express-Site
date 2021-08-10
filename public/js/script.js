@@ -12,6 +12,15 @@ document.querySelector('#menu-icon').addEventListener('click', e => {
   return headerBtnClicked = !headerBtnClicked;
 });
 
+function toggleSidebar() {
+  const sidebar = document.querySelector('#my-info');
+  if (sidebar.style.display === "none") {
+    sidebar.style.display = "block";
+  } else {
+    sidebar.style.display = "none";
+  }
+}
+
 //add project video autoplay on mouseover
 let projects = document.querySelectorAll('video.thumbnail');
 for (let project of projects) {

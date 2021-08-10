@@ -133,14 +133,14 @@ nav a span {
 }
 
 .sidebar {
-  position: relative;
   z-index: 1;
   top: 0;
-  left: 0;
-  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
   margin-right: -300px;
   float: left;
   height: 100%;
+  min-height: 100%;
   padding: 20px;
   background-image: url(../images/Sidebar.png);
   background-color: #022e3c;
