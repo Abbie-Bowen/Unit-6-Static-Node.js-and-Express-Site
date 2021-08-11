@@ -8,12 +8,13 @@
             ],
             "live_link": "https://abbie-bowen.github.io/Math-Four-In-A-Row/",
             "github_link": "https://github.com/Abbie-Bowen/Math-Four-In-A-Row",
-            "image_urls": ["/static/images/Four_In_a_Row/FourInaRowFull.png", 
-                "/static/images/Four_In_a_Row/FourInaRowFull2.png", 
-                "/static/images/Four_In_a_Row/FourInaRowFull4.png",
-                "/static/images/Four_In_a_Row/FourInaRowFull5.png"
+            "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowFull.png", 
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInARowFull2.png", 
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowFull4.png",
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowFull5.png"
             ],
-            "video_preview" : "/static/images/Four_In_a_Row/Preview_Video.mp4"
+            "video_preview": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/Preview_Video.mp4",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowMain.png"
         },
         {
             "id": 1,
@@ -23,10 +24,11 @@
             ],
             "live_link": "https://abbie-bowen.github.io/Unit-5-Public-API-Requests/",
             "github_link": "https://github.com/Abbie-Bowen/Unit-5-Public-API-Requests",
-            "image_urls": ["/static/images/Project_5/PublicAPIRequestsFull.png", 
-                "/static/images/Project_5/PublicAPIRequestsFull2.png"
+            "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_5/PublicAPIRequestsFull.png", 
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_5/PublicAPIRequestsFull2.png"
             ],
-            "video_preview" : "/static/images/Project_5/Preview_Video.mp4"
+            "video_preview" : "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_5/Preview_Video.mp4",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_5/PublicAPIRequestsMain.png"
         },
         {
             "id": 2,
@@ -36,12 +38,13 @@
             ],
             "live_link": "https://abbie-bowen.github.io/Treehouse-Unit-4-Game-Show-App/",
             "github_link": "https://github.com/Abbie-Bowen/Treehouse-Unit-4-Game-Show-App",
-            "image_urls": ["/static/images/Project_4/GameShowAppFull.png",
-                "/static/images/Project_4/GameShowAppFull1.png", 
-                "/static/images/Project_4/GameShowAppFull2.png" 
+            "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_4/GameShowAppFull1.png",
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_4/GameShowAppFull2.png", 
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_4/GameShowAppFull3.png" 
                 
             ],
-            "video_preview" : "/static/images/Project_4/Preview_Video.mp4"
+            "video_preview": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_4/Preview_Video.mp4",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_4/GameShowAppMain.png"
         },
         {
             "id": 3,
@@ -51,9 +54,10 @@
             ],
             "live_link": "https://abbie-bowen.github.io/Unit-3-Interactive-Form/",
             "github_link": "https://github.com/Abbie-Bowen/Unit-3-Interactive-Form",
-            "image_urls": ["/static/images/Project_3/InteractiveFormFull.png"
+            "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_3/InteractiveFormFull.png"
             ],
-            "video_preview" : "/static/images/Project_3/Preview_Video.mp4"
+            "video_preview" : "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_3/Preview_Video.mp4",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_3/InteractiveFormMain.png"
         },
         {
             "id": 4,
@@ -63,9 +67,10 @@
             ],
             "live_link": "https://abbie-bowen.github.io/Unit-2-Data-Pagination-and-Filtering/",
             "github_link": "https://github.com/Abbie-Bowen/Unit-2-Data-Pagination-and-Filtering",
-            "image_urls": ["/static/images/Project_2/DataPaginationFull.png"
+            "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_2/DataPaginationFull.png"
             ],
-            "video_preview" : "/static/images/Project_2/Preview_Video.mp4"
+            "video_preview" : "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_2/Preview_Video.mp4",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_2/DataPaginationMain.png"
         },
         {
             "id": 5,
@@ -75,10 +80,11 @@
             ],
             "live_link": "https://abbie-bowen.github.io/Unit-1-Random-Quote-Generator/",
             "github_link": "https://github.com/Abbie-Bowen/Unit-1-Random-Quote-Generator",
-            "image_urls": ["/static/images/Project_1/RandomQuoteGeneratorFullSize1.png", 
-                "/static/images/Project_1/RandomQuoteGeneratorFullSize2.png"
+            "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_1/RandomQuoteGeneratorFullSize1.png", 
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_1/RandomQuoteGeneratorFullSize2.png"
             ],
-            "video_preview" : "/static/images/Project_1/Preview_Video.mp4"
+            "video_preview": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_1/Preview_Video.mp4",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_1/RandomQuoteGeneratorMain.png"
         }
     ]
 }

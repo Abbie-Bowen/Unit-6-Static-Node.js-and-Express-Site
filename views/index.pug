@@ -12,6 +12,6 @@ block content
       each project in projects  
         .cell.underline
           a(href=`/project/${project.id}`)
-            video.thumbnail(src=`${project.video_preview}`, loop, muted, alt=`Preview video of ${project.project_name} and link see more about this project.`)
+            video.thumbnail(src=`${project.video_preview}`, loop, muted, poster=`${project.alternate_main}`, alt=`Preview video of ${project.project_name} and link see more about this project.`)
             h5 #{project.project_name}
 
