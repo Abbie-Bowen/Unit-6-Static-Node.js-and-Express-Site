@@ -275,6 +275,10 @@ nav a span {
   border-bottom: 3px solid #022e3c;
 }
 
+span.website {
+  align-content: center;
+}
+
 .projects-box h5 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
