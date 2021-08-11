@@ -35,13 +35,10 @@ app.get('/about', (req, res, next) => {
 app.get('/project/:id', (req, res, next) => {
     const projectId =  req.params.id;
     const project = projects.find(({id}) => id === +projectId);
-    try {
-        if (!project) {
-            next(createError(404, "This project does not exist."));
-        }
-    res.render('project', {project});
-    }catch(err) {
-        next(err);
+    if (project) {
+        res.render('project', {project});
+    } else {
+        next(createError(404, "This project does not exist."));
     }
 });
 
