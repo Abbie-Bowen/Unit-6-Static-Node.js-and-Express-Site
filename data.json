@@ -15,12 +15,13 @@
         },
         {
             "id": 1,
-            "project_name": "Math Facts Four in a Row Game",
-            "description": "An app designed for math fact practice with some FUN involved. This is an extension I created of a basic four in a row game we used as practice during the Treehouse TechDegree.",
-            "technologies": ["Javascript","CSS","HTML", "OOP", "GitHub", "Atom"
+            "project_name": "React Gallery App",
+            "description": "An app that retrieves 24 images from Flickr that match a user's search and displays them in a grid. Built in React.",
+            "note": "*Note: the app pulls search terms from the url as well as the search box & buttons. Which means when you click the link to the live page, you'll see a message that says 'No results found' because it is searching for 'react-gallery-app' until you enter a new search term.",
+            "technologies": ["Javascript","CSS","HTML", "React", "GitHub", "Visual Stuio Code"
             ],
-            "live_link": "https://abbie-bowen.github.io/Math-Four-In-A-Row/",
-            "github_link": "https://github.com/Abbie-Bowen/Math-Four-In-A-Row",
+            "live_link": "https://abbie-bowen.github.io/react-gallery-app/",
+            "github_link": "https://github.com/Abbie-Bowen/react-gallery-app",
             "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Coming_soon.png"
             ],
             "video_preview": "",
