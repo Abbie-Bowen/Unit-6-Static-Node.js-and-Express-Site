@@ -8,10 +8,10 @@
             ],
             "live_link": "https://abbie-bowen.github.io/sound-wall/",
             "github_link": "https://github.com/Abbie-Bowen/sound-wall",
-            "image_urls": [ "/images/Coming_soon.png"
+            "image_urls": [ "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Coming_soon.png"
             ],
-            "video_preview": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/Preview_Video.mp4",
-            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowMain.png"
+            "video_preview": "",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Coming_soon.png"
         },
         {
             "id": 1,
@@ -21,13 +21,10 @@
             ],
             "live_link": "https://abbie-bowen.github.io/Math-Four-In-A-Row/",
             "github_link": "https://github.com/Abbie-Bowen/Math-Four-In-A-Row",
-            "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowFull.png", 
-                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInARowFull2.png", 
-                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowFull4.png",
-                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowFull5.png"
+            "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Coming_soon.png"
             ],
-            "video_preview": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/Preview_Video.mp4",
-            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowMain.png"
+            "video_preview": "",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Coming_soon.png"
         },
         {
             "id": 2,
