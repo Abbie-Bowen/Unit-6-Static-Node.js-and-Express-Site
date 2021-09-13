@@ -2,6 +2,19 @@
     "projects": [
         {
             "id": 0,
+            "project_name": "Virtual Sound Wall",
+            "description": "Sound walls are used in the classroom to help students visually connect the phonemes (speech sounds) to their graphemes (letters). A virtual representation of the sound wall supports classrooms learning remotely and classrooms without wall space to put up a physical sound wall.",
+            "technologies": ["Javascript","CSS","HTML", "React", "Figma", "GitHub", "Visual Studio Code"
+            ],
+            "live_link": "https://abbie-bowen.github.io/sound-wall/",
+            "github_link": "https://github.com/Abbie-Bowen/sound-wall",
+            "image_urls": [ "/images/Coming_soon.png"
+            ],
+            "video_preview": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/Preview_Video.mp4",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowMain.png"
+        },
+        {
+            "id": 1,
             "project_name": "Math Facts Four in a Row Game",
             "description": "An app designed for math fact practice with some FUN involved. This is an extension I created of a basic four in a row game we used as practice during the Treehouse TechDegree.",
             "technologies": ["Javascript","CSS","HTML", "OOP", "GitHub", "Atom"
@@ -17,7 +30,23 @@
             "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowMain.png"
         },
         {
-            "id": 1,
+            "id": 2,
+            "project_name": "Math Facts Four in a Row Game",
+            "description": "An app designed for math fact practice with some FUN involved. This is an extension I created of a basic four in a row game we used as practice during the Treehouse TechDegree.",
+            "technologies": ["Javascript","CSS","HTML", "OOP", "GitHub", "Atom"
+            ],
+            "live_link": "https://abbie-bowen.github.io/Math-Four-In-A-Row/",
+            "github_link": "https://github.com/Abbie-Bowen/Math-Four-In-A-Row",
+            "image_urls": ["https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowFull.png", 
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInARowFull2.png", 
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowFull4.png",
+                "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowFull5.png"
+            ],
+            "video_preview": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/Preview_Video.mp4",
+            "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Four_In_a_Row/FourInaRowMain.png"
+        },
+        {
+            "id": 3,
             "project_name": "Public API Requests",
             "description": "This website makes an API request and uses that data to populate a website. Additional features include filtering by name and a modal to view more information.",
             "technologies": ["Javascript","CSS","HTML", "Fetch and Public APIs", "GitHub", "Atom"
@@ -31,7 +60,7 @@
             "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_5/PublicAPIRequestsMain.png"
         },
         {
-            "id": 2,
+            "id": 4,
             "project_name": "Game Show App: Snap Word Phrases",
             "description": "This game show app lets the user guess letters and gives immediate feedback as to if that letter is included in the random phrase. Phrases all include a snap word (these are sometimes also called sight words) to help students practice words in context.",
             "technologies": ["Javascript","CSS","HTML", "GitHub", "Atom"
@@ -47,7 +76,7 @@
             "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_4/GameShowAppMain.png"
         },
         {
-            "id": 3,
+            "id": 5,
             "project_name": "Interactive Form",
             "description": "This form lets the user input information that would be required to register for a conference. Data validation occurs in real time to let the user know if they need to make corrections.",
             "technologies": ["Javascript","CSS","HTML", "GitHub", "Atom"
@@ -60,7 +89,7 @@
             "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_3/InteractiveFormMain.png"
         },
         {
-            "id": 4,
+            "id": 6,
             "project_name": "Data Pagination and Filtering",
             "description": "A website that displays an array of people to a page with a real time search bar that filters the people displayed. Pagination buttons at the bottom of the page let the user page through results.",
             "technologies": ["Javascript","CSS","HTML", "GitHub", "Atom"
@@ -73,7 +102,7 @@
             "alternate_main": "https://abbiebowenportfolio.s3.us-west-2.amazonaws.com/images/Project_2/DataPaginationMain.png"
         },
         {
-            "id": 5,
+            "id": 7,
             "project_name": "Random Quote Generator",
             "description": "This app displays a new quote from my favorite TV show each time the user clicks the button. The background also automatically changes to a new jewel-toned color.",
             "technologies": ["Javascript","CSS","HTML", "GitHub", "Atom"
